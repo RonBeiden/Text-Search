@@ -79,7 +79,7 @@ def DistributedSearch(textfile, string_to_search, n_threads, delta):
         print("not found.")
 
 import unittest
-class TestAssignment4(unittest.TestCase):
+class TestAssignment(unittest.TestCase):
 
-    def test_integrate_float32(self):
+    def test_threads(self):
         DistributedSearch(r"C:\Users\1\Desktop\alice_in_wonderland.txt", "A", 50, 5000000)
